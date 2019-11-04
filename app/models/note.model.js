@@ -6,7 +6,7 @@ const BookSchema = mongoose.Schema({
     Author: String,
     Publisher: String,
     Date: Number,
-    Availibility: String
+    Availability: String
 }, {
     timestamps: true
 });

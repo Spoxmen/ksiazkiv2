@@ -14,7 +14,7 @@ exports.create = (req, res) => {
         Author: req.body.Author,
         Publisher: req.body.Publisher,
         Date: req.body.Date,
-        Availibility: req.body.Availibility
+        Availability: req.body.Availability
     });
 
     note.save()
